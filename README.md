@@ -1,5 +1,5 @@
 # AutonomousVehicleSimulation
-Simulating autonomous vehicles using the FLOW library in python
+Modelling and simulating autonomous vehicles using the FLOW library in python
 
 ## Overview
 The purpose of this project was to create a model which develops autonomous vehicle driving policies using a deep reinforcement learning policy. See [my discussion](https://www.youtube.com/watch?v=qXuBEs9G7Iw&t=12s) or the slide deck in the repo which goes over the general framework and the tools used.
