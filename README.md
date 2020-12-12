@@ -16,11 +16,11 @@ For this project 20 cars using the IDM (intelligent Driver Model) which mimic th
 
 | Model           | Description |
 |-----------------|------------------|
-| ma2_minicity.py | replaces 5% of the IDM drivers in the system with vehicles using an RL based acceleration policy |
-| ma_minicity_noise_10p.py | replaces 10% of the IDM drivers and added 0.2 standard deviations of noise to the NN input |
-| ma_minicity_noise_20p.py | replaces 20% of the IDM drivers |
-| ma_minicity_noise_30p.py | replaces 30% of the IDM drivers |
-| ma_minicity_noise_and_penalty.py | implemented RyanAccelPOEnv which adds a penalty for ending the simulation early |
+| ma2_minicity.py | Replaces 5% of the IDM drivers in the system with vehicles using an RL based acceleration policy |
+| ma_minicity_noise_10p.py | Replaces 10% of the IDM drivers and added 0.2 standard deviations of noise to the NN input |
+| ma_minicity_noise_20p.py | Replaces 20% of the IDM drivers |
+| ma_minicity_noise_30p.py | Replaces 30% of the IDM drivers |
+| ma_minicity_noise_and_penalty.py | Implemented RyanAccelPOEnv which adds a penalty for ending the simulation early |
 
 ## Credits
 
