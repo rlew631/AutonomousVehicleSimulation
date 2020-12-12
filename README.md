@@ -8,7 +8,19 @@ This project was developed using FLOW, to recreate the results see their [readth
 
 ## Architecture of the Project
 
-For this project 20 cars using the IDM (intelligent Driver Model) which mimic the acceleration of human drivers were placed in the FLOW minicity environment, cars were added until the average vehicle speed in the system dropped by 50% with 140 human driven cars. After that several different models were made where a portion of the human modeled drivers were replaced with a keras neural network trained using RLlib to address the reduction in speed.
+For this project 20 cars using the IDM (intelligent Driver Model) which mimic the acceleration of human drivers were placed in the FLOW minicity environment, cars were added until the average vehicle speed in the system dropped by 50% with 140 human driven cars. After that several different models were made where a portion of the human modeled drivers were replaced with a keras neural network trained using RLlib to address the reduction in speed. This neural network took the speed and location of the car as well as the speed and distances of the cars directly infront of and behind it to determine acceleration/deceleration for the vehicle. This policy was shared among all of the RL vehicles and the reward was based on the speed of all the vehicles in the system.
+
+![RL Acceleration Model](https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/RL%20diagram.png?raw=true)
+
+## The Models
+
+| Model           | Description |
+|-----------------|------------------|
+| ma2_minicity.py | replaces 5% of the IDM drivers in the system with vehicles using an RL based acceleration policy |
+| ma_minicity_noise_10p.py | replaces 10% of the IDM drivers and added 0.2 standard deviations of noise to the NN input |
+| ma_minicity_noise_20p.py | replaces 20% of the IDM drivers |
+| ma_minicity_noise_30p.py | replaces 30% of the IDM drivers |
+| ma_minicity_noise_and_penalty.py | implemented RyanAccelPOEnv which adds a penalty for ending the simulation early |
 
 ## Credits
 
