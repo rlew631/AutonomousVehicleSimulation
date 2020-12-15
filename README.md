@@ -22,7 +22,7 @@ For this project 20 cars using the IDM (intelligent Driver Model) which mimic th
 | ma_minicity_noise_30p.py | Replaces 30% of the IDM drivers |
 | ma_minicity_noise_and_penalty.py | Implemented RyanAccelPOEnv which adds a penalty for ending the simulation early |
 
-To see a demo of the `ma_minicity_noise_20p` experiment in a jupyter notebook take a look at the MultiAgent_MiniCity_Demo.ipynb file. This is best viewed locally since the experiment output for each step in the simulation is shown in the file when viewing in github. To see the plotted results and some discussion simply scroll to the bottom of the file.
+To see a demo of the `ma_minicity_noise_20p` experiment in a jupyter notebook take a look at the `MultiAgent_MiniCity_Demo.ipynb` file. This is best viewed locally since the experiment output for each step in the simulation is shown in the file when viewing in github. To see the plotted results and some discussion simply scroll to the bottom of the file.
 
 ## Credits
 
