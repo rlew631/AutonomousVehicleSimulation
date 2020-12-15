@@ -26,7 +26,7 @@ To see a demo of the `ma_minicity_noise_20p` experiment in a jupyter notebook ta
 
 All of the experiments were run in the FLOW Minicity environment.
 
-![FLOW Minicity Environment](https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/minicity_static_cropped.png?raw=true)
+![FLOW Minicity Environment](https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/minicity_static_cropped.png?raw=true | width = 500)
 
 ## Credits
 
