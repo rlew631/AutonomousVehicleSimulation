@@ -24,16 +24,13 @@ For this project 20 cars using the IDM (intelligent Driver Model) which mimic th
 
 To see a demo of the `ma_minicity_noise_20p` experiment in a jupyter notebook take a look at the `MultiAgent_MiniCity_Demo.ipynb` file. This is best viewed locally since the experiment output for each step in the simulation is shown in the file when viewing in github. To see the plotted results and some discussion simply scroll to the bottom of the file.
 
-All of the experiments were run in the FLOW Minicity environment.
+All of the experiments were run in the FLOW Minicity environment:
 
 <img src="https://github.com/rlew631/AutonomousVehicleSimulation/blob/main/minicity_static_cropped.png?raw=true" alt="FLOW Minicity Environment" width="500"/>
 
 ## Credits
 
-[FLOW](https://github.com/flow-project/flow)
-
-[RLlib](https://github.com/ray-project/ray/blob/master/python/ray/rllib)
-
-[SUMO](https://github.com/eclipse/sumo)
-
-[OpenAI Gym](https://github.com/openai/gym)
+- [FLOW](https://github.com/flow-project/flow)
+- [RLlib](https://github.com/ray-project/ray/blob/master/python/ray/rllib)
+- [SUMO](https://github.com/eclipse/sumo)
+- [OpenAI Gym](https://github.com/openai/gym)
